@@ -4,7 +4,7 @@
        <p><h1>{{ greeting }}</h1></p><br>
        <form action="http://localhost/" method="post"> 
            <p><input name="text" type="text" size="40" />  </p> 
-           <input name="button" type="submit" value="отправить"  />
+           <input type="submit" value="отправить"  />
             {% csrf_token %} 
        </form>
        <ul><h3>Get parameters:</h3>
